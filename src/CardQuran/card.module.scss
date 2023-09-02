@@ -1,0 +1,55 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+  box-shadow: 0 5px 10px 0px rgb(209, 209, 209);
+  border: 1px solid green;
+
+//   div {
+//     word-wrap: break-word;
+//     margin-bottom: 10px;
+//   }
+
+  .number {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: green;
+  }
+
+  .icons {
+    position: relative;
+    cursor: pointer;
+    top: -15px;
+    left: 215px;
+  }
+
+  .iconsActive {
+    position: relative;
+    cursor: pointer;
+    top: -15px;
+    left: 215px;
+    font-variation-settings: "FILL" 1, "wght" 500, "GRAD" 200, "opsz" 48;
+  }
+
+  &:hover {
+    background-color: rgba(38, 153, 7, 1);
+    color: white;
+  }
+
+}
+
+.card.bookmarked .iconsActive {
+  position: relative;
+  cursor: pointer;
+  top: -15px;
+  left: 215px;
+  font-variation-settings: "FILL" 1, "wght" 500, "GRAD" 200, "opsz" 48;
+}

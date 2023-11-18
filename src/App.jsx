@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Quran from "./Quran";
-import Sura from "./Quran/Sura";
-
+import Sura from "./Sura/Sura";
+  
 function App() {
   return (
     <>

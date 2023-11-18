@@ -1,22 +1,3 @@
-.sura {
-  font-size: 24px;
-  text-align: center;
-  width: 700px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  font-family: "Amiri Quran";
-  cursor: pointer;
-
-  span {
-    transition: 0.5s;
-
-    &:hover {
-      color: rgba(38, 153, 7, 1);
-      background-color: aliceblue;
-    }
-  }
-}
-
 .rules {
   height: 500px;
   display: flex;

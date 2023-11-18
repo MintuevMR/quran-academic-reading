@@ -1,0 +1,43 @@
+.sura {
+  height: 90vh;
+  overflow-y: scroll;
+  text-align:justify;
+  font-size: 30px;
+  border-radius: 10px;
+  font-family: "Amiri Quran";
+  cursor: pointer;
+
+  span {
+    transition: 0.5s;
+    &:hover {
+      color: rgba(38, 153, 7, 1);
+      background-color: aliceblue;
+    }
+  }
+}
+
+.highlight {
+  transition: 0.5s;
+  color: rgba(38, 153, 7, 1);
+  background-color: aliceblue;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5vh;
+  background-color: rgb(235, 236, 231);
+  button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 40.932px;
+    background: #03aa77;
+  }
+}
+
+
+
